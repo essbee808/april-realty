@@ -1,12 +1,10 @@
 import React from 'react'
-import Router from './components/Router';
-import Nav from './components/nav/Nav';
+import NavBarContainer from './components/nav/NavBarContainer';
 
 const App = () => {
   return (
     <div className="App">
-      <Nav />
-      <Router />
+      <NavBarContainer/>
     </div>
   )
 }
