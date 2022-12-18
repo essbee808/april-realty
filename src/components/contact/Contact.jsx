@@ -1,4 +1,7 @@
 import React from 'react'
+import {BsTelephone} from 'react-icons/bs'
+import {MdOutlineEmail} from 'react-icons/md'
+import {AiOutlineInstagram} from 'react-icons/ai'
 
 const Contact = () => {
   return (
@@ -12,15 +15,18 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <h4>Email</h4>
-            <a href="mailto:macaraeg.april@gmail.com" target="_blank">Send an email</a>
+            <MdOutlineEmail />
+            <a href="mailto:macaraeg.april@gmail.com" target="_blank"> Send an email</a>
           </article>
           <article className="contact_option">
             <h4>Phone</h4>
-            <a href="tel:4242614316" target="_blank">Phone</a>
+            <BsTelephone/> 
+            <a href="tel:4242614316" target="_blank"> Phone</a>
           </article>
           <article className="contact_option">
             <h4>Instagram</h4>
-            <a href="https://www.instagram.com/aprilrealty/" target="_blank">Follow me on Instagram</a>
+            <AiOutlineInstagram />
+            <a href="https://www.instagram.com/aprilrealty/" target="_blank">Instagram</a>
           </article>
           
         </div>
