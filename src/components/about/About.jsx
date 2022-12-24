@@ -1,4 +1,5 @@
 import React from 'react'
+import {SiZillow} from 'react-icons/si'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
             <h7>DRE# 02094285</h7>
 
         </div>
-        
+
         <h5>Specialties: Buyer's agent, Listing agent, Relocation, Legal, Landlord</h5>
         <div>
           <p>
@@ -24,6 +25,9 @@ const About = () => {
           </p>
         </div>
 
+        <div>
+          <a href="https://www.zillow.com/profile/macaraeg%20april" target="_blank"><SiZillow /> Read My Zillow Reviews</a>
+        </div>
         
     </section>
   )
