@@ -30,6 +30,13 @@ const Contact = () => {
           </article>
           
         </div>
+
+        <form action="">
+          <input type="text" placeholder="Name"/><br/>
+          <input type="tel" placeholder="Phone"/><br/>
+          <input type="text" placeholder="Enter message"/><br/>
+          <input type="submit" value="Submit" />
+        </form>
     </section>
   )
 }
