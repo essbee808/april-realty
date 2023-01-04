@@ -23,7 +23,7 @@ const Contact = () => {
           <article className="contact_option">
             <h4>Email</h4>
             <MdOutlineEmail />
-            <a href="mailto:macaraeg.april@gmail.com" target="_blank"> Send an email</a>
+            <a href="mailto:amacarae@gmail.com" target="_blank"> Send an email</a>
           </article>
           <article className="contact_option">
             <h4>Phone</h4>
