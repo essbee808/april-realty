@@ -1,0 +1,15 @@
+footer {
+    background: rgb(190, 189, 189);
+    padding: 3rem 0;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    /* /* .footer_socials {
+       
+    } */
+} 

@@ -1,6 +1,7 @@
 import React from 'react'
 import {SiZillow} from 'react-icons/si'
 import Profile from '../../assets/profile.jpg'
+import Image from 'react-bootstrap/Image'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -17,7 +18,7 @@ const About = () => {
               <h7>Broker Associate/Realtor®</h7>
               <h7>DRE# 02094285</h7>
           </Col>
-          <Col><img src={Profile} alt="Profile photo"></img></Col>
+          <Col><Image src={Profile} alt="Profile photo" roundedCircle/></Col>
         </Row>
         <Row>
           <Col>
