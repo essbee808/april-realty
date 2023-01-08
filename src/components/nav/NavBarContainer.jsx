@@ -8,7 +8,7 @@ function NavBarContainer() {
     <>
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="/">April Realty</Navbar.Brand>
+          <Navbar.Brand href="/home">April Realty</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>

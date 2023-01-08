@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Container>
         <Row>
-            Home
+            <h1>Home</h1>
         </Row>
         <Row>
             <img src={House} alt="house keys" />
