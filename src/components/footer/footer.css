@@ -10,8 +10,18 @@ footer {
     color: white;
 }
 
-a, a:hover {
+a {
     color: white;
+}
+
+a:hover {
+    color: rgb(237, 229, 229);
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+.social_icon {
+    padding: 6px;
 }
 
 .footer_copyright {

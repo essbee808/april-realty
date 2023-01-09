@@ -15,18 +15,22 @@ const Footer = () => {
       <Container>
         <Row>
           <Col >
-            <h5>April Macaraeg, Esq.</h5>
+            <h4>April Macaraeg, Esq.</h4>
             <h6>Grate Real Estate</h6>
-            <h7>Broker Associate/Realtor®</h7>
-            <h7>DRE# 02094285</h7>
+            <small>Broker Associate/Realtor®</small><br/>
+            <small>DRE# 02094285</small>
           </Col>
+
           <Col>
             <a href="mailto:macaraeg.april@gmail.com"><MdOutlineMail />: macaraeg.april@gmail.com</a><br/>
             <a href="tel:4242614316"><BsTelephone/>: (424) 261-4316</a>
           </Col>
-          <Col>Col 3</Col>
+          <Col>
+            <h4>Socials</h4>
+            <a href="https://www.instagram.com/aprilrealty" target="_blank"><FiInstagram size={40} className="social_icon"/></a>
+            <a href="https://www.linkedin.com/in/april-macaraeg-7a555265/" target="_blank"><BsLinkedin size={40} className="social_icon"/></a>
+          </Col>
         </Row>
-
       {/* <div className="footer_socials">
         <a href="https://www.instagram.com/aprilrealty" target="_blank"><FiInstagram/></a><br/>
         <a href="https://www.linkedin.com/in/april-macaraeg-7a555265/" target="_blank"><BsLinkedin/></a>
