@@ -1,10 +1,22 @@
 footer {
-    background: rgb(225, 224, 224);
-    padding: 1rem 0;
-    text-align: center;
+    background: rgb(11, 95, 116);
+    /* padding: 1rem 0; */
+    text-align: left;
     bottom: 0;
     position: absolute;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a, a:hover {
+    color: white;
+}
+
+.footer_copyright {
+    padding-top: 1rem;
+    text-align: center;
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */

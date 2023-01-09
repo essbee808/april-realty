@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
-import {SiZillow} from 'react-icons/si'
 import Profile from '../../assets/profile.jpg'
 import Image from 'react-bootstrap/Image'
+import Contact from '../contact/Contact'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -40,6 +40,9 @@ const About = () => {
               so that you can have the best experience.
               </p>
             </Col>
+            <Col>
+              <Contact />
+            </Col>
           </Row>
         </div>
       {/* <h5>Specialties: Buyer's agent, Listing agent, Relocation, Legal, Landlord</h5>
@@ -47,7 +50,6 @@ const About = () => {
         <div>
           <a href="https://www.zillow.com/profile/macaraeg%20april" target="_blank"><SiZillow /> Read My Zillow Reviews</a>
         </div> */}
-       
     </Container>
   )
 }
