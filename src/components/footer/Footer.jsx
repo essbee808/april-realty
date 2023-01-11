@@ -37,7 +37,7 @@ const Footer = () => {
   </div>*/}
 
       <div className="footer_copyright">
-        <small>&copy; 2023 Produksheenz. All Rights Reserved.</small>
+        <small>&copy; 2023 <a href="https://www.sheenabonilla.com/" target="_blank">Produksheenz.</a> All Rights Reserved.</small>
       </div>
       </Container>
     </footer>

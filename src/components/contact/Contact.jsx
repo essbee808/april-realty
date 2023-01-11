@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
 const Contact = () => {
   return (
     <Container >
-        <Row>Row 1
+        <Row>
           <Col>
             <h3>Get in Touch</h3>
             <form action="">
