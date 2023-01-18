@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.contact_link a {
+    color: black;
+}
+
+.contact_link a:hover {
+    color: rgb(11, 95, 116);
+    
+}
+
 .description {
     padding: 1.5rem;
 }

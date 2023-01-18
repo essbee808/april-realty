@@ -24,7 +24,7 @@ const About = () => {
                 <h7>324 S. Beverly Dr. Suite 490</h7><br/>
                 <h7>Beverly Hills, CA 90212</h7>
             </Col>
-            <Col>
+            <Col className="contact_link">
               <h5>Contact</h5><br/>
               <small><a href="tel:424261-4316">D: (424) 261-4316</a></small><br/>
               <a href="mailto:macaraeg.april@gmail.com subject=Real Estate Inquiry">E: macaraeg.april@gmail.com</a>
