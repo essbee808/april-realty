@@ -18,11 +18,14 @@ const About = () => {
             <Col>
                 <h5>April Macaraeg, Esq.</h5>
                 <h6>Grate Real Estate</h6>
-                <h7>Broker Associate/Realtor®</h7>
-                <h7>DRE# 02094285</h7>
+                <h7>Broker Associate/Realtor®</h7><br/>
+                <h7>DRE# 02094285</h7><br/>
+                <br/>
+                <h7>324 S. Beverly Dr. Suite 490</h7><br/>
+                <h7>Beverly Hills, CA 90212</h7>
             </Col>
             <Col>
-              <small>Contact</small><br/>
+              <h5>Contact</h5><br/>
               <small><a href="tel:424261-4316">D: (424) 261-4316</a></small><br/>
               <a href="mailto:macaraeg.april@gmail.com subject=Real Estate Inquiry">E: macaraeg.april@gmail.com</a>
             </Col>
