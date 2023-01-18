@@ -24,7 +24,7 @@ const Contact = () => {
   }
 
   return (
-    <Container >
+    <Container>
         <Row>
           <Col>
             <h3>Get in Touch</h3>

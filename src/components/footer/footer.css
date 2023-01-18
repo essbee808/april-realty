@@ -1,14 +1,9 @@
 footer {
     background: rgb(11, 95, 116);
-    /* padding: 1rem 0; */
     text-align: left;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     color: white;
-}
+} 
+
 
 a {
     color: white;
@@ -29,9 +24,10 @@ footer > a:hover {
     text-align: center;
 }
 
+
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    /* /* .footer_socials {
-       
-    } */
-} 
+  
+
+ } 
+ 
