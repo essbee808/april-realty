@@ -5,14 +5,22 @@ import Row from 'react-bootstrap/Row'
 
 const Home = () => {
   return (
-    <Container>
-        <Row>
-            <h1>Home</h1>
-        </Row>
-        <Row>
-            <img src={House} alt="house keys" />
-        </Row>
-    </Container>
+    <section>
+      <Container>
+          <Row>
+              <img src={House} alt="house keys" />
+          </Row>
+          <Row>
+              <h2>Featured Neighborhoods</h2>
+              <small>90404</small>
+              <small>90301</small>
+          </Row>
+
+          <Row>
+              <h2>Featured Listings</h2>
+          </Row>
+      </Container>
+    </section>
   )
 }
 
