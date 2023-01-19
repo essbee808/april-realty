@@ -30,7 +30,7 @@ const Contact = () => {
       <Container>
           <Row>
             <Col>
-              <h3>Get in Touch</h3>
+              <h3><strong>Get in Touch</strong></h3>
               <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="Form.ControlInput1">
                   <Form.Control type="text" name="first_name" placeholder="First Name" required/>

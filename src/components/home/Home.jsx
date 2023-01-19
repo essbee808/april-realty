@@ -12,12 +12,12 @@ const Home = () => {
           </Row>
           <Row>
               <h2>Featured Neighborhoods</h2>
-              <small>90404</small>
-              <small>90301</small>
+              <h5>Coming Soon!</h5>
           </Row>
 
           <Row>
               <h2>Featured Listings</h2>
+              <h5>Coming Soon!</h5>
           </Row>
       </Container>
     </section>
