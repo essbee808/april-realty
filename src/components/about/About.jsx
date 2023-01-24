@@ -12,7 +12,6 @@ const About = () => {
   return (
     <section>
       <Container>
-          <h1>About Me</h1>
           <div className="info main">
             <Row>
               <Col><Image src={Profile} alt="Profile photo" roundedCircle/></Col>
@@ -32,6 +31,7 @@ const About = () => {
               </Col>
             </Row>
           </div>
+          
           <div className="description">
             <Row>
               <Col>
