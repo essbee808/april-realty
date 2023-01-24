@@ -57,8 +57,18 @@ section {
     color: grey;
 }
 
-#contact-side-button {
-    background: pink;
+.floating-btn {
+    width: 80px;
+    height: 80px;
+    background: black;
+    display: flex; 
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+
+    /* centered horizontally and vertically */
+    align-items: center;
+    justify-content: center;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

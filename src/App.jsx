@@ -9,7 +9,7 @@ const App = () => {
       <NavBarContainer/>
       <Router />
       <h1>Floating Button with HTML</h1>
-      <a href="http://www.google.com" class="material-icons" id="contact-side-button">add</a>
+      <a href="http://www.google.com" class="material-icons floating-btn" >add</a>
       <Footer />
     </div>
   )
