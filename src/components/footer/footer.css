@@ -2,8 +2,8 @@ footer {
     background: rgb(11, 95, 116);
     text-align: left;
     color: white;
+    display: flex;
 } 
-
 
 a {
     color: white;
