@@ -26,10 +26,10 @@ const Contact = () => {
   }
 
   return (
-      <Container>
+      <Container >
           <Row>
             <Col>
-              <h3><strong>Get in Touch</strong></h3>
+              <h3 className="fs-2 fw-bold"><center>Get in Touch</center></h3>
               <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="Form.ControlInput1">
                   <Form.Control type="text" name="first_name" placeholder="First Name" required/>
@@ -41,11 +41,10 @@ const Contact = () => {
                   <Form.Control type="email" name="email" placeholder="Email Address" required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="Form.ControlTextarea1">
-                  <Form.Control as="textarea" name="message" rows={4} placeholder="I have question for you..." required/>
+                  <Form.Control as="textarea" name="message" rows={6} placeholder="I have question for you..." required/>
                 </Form.Group>
                 <Button type="submit" className="primary_button">Send Message</Button>
               </Form>
-            
             </Col>
           </Row>
     </Container>

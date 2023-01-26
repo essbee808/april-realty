@@ -15,16 +15,16 @@ const About = () => {
       <Row className="p-3">
         <Col sm={4}><Image src={Profile} alt="Profile photo" roundedCircle className="p-1"/></Col>
         <Col sm={4} className="p-1">
-          <h3>April Macaraeg, Esq.</h3>
-          <br/>
-          <h6>Grate Real Estate</h6>
-          
-          <p>Broker Associate/Realtor®</p>
-          <p>DRE# 02094285</p>
+            <h3 className="fs-5">April Macaraeg, Esq.</h3>
+            <div className="fs-6 fw-light">
+              <h6>Grate Real Estate</h6>
+              <p>Broker Associate/Realtor®</p>
+              <p>DRE# 02094285</p>
+            </div>
+            
         </Col>
         <Col sm={4} className="p-1">
-          <h3>Contact</h3>
-          <br/>
+          <h3 className="fs-3 fw-light">Contact</h3>
           <a href="tel:424261-4316">(424) 261-4316</a><br/>
           <a href="mailto:macaraeg.april@gmail.com subject=Real Estate Inquiry">macaraeg.april@gmail.com</a>
         </Col>
@@ -32,7 +32,7 @@ const About = () => {
 
       <Row className="p-3">
         <Col sm className="p-2">
-          <p>
+          <p className="info">
                 I became a real estate agent because I want to help people make informed decisions regarding
                 their property--whether it's buying or selling. My purpose in life has always been to serve
                 others. As an attorney, I help clients navigate through the legal system. As an adjunct professor,
