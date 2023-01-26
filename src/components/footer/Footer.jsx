@@ -11,14 +11,13 @@ import Col from 'react-bootstrap/Col'
 
 const Footer = () => {
   return (
-    <footer className="bg-sky-900
-    text-1xl text-white text-center
-    border-t-4 border-sky-600
+    <footer className="
+    text-1xl text-black text-center
     fixed
     inset-x-0
     bottom-0
-    p-4">
-       © 2023 April Realty. All Rights Reserved.
+    p-1">
+       <small>© 2023 April Realty. All Rights Reserved.</small>
     </footer>
   //   <footer>
   //     <Container>

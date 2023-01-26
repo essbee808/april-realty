@@ -8,7 +8,7 @@ const Home = () => {
     <section>
       <Container>
           <Row>
-              <div className="aspect-w-14 aspect-h-7">
+              <div className="aspect-w-16 aspect-h-9">
                 <iframe src="https://www.youtube.com/embed/6puBdEOW7Dg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </Row>
