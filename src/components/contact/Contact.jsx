@@ -26,7 +26,6 @@ const Contact = () => {
   }
 
   return (
-    <section>
       <Container>
           <Row>
             <Col>
@@ -50,7 +49,6 @@ const Contact = () => {
             </Col>
           </Row>
     </Container>
-   </section>
   )
 }
 

@@ -6,9 +6,6 @@ import {Link} from 'react-router-dom';
 function NavBarContainer() {
   return (
     <>
-  
-
-
       <Navbar bg="light" variant="light"> 
         <Container>
           <Navbar.Brand href="/">April Realty</Navbar.Brand>
