@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_hrq0qin', 'template_9q19nmr', form.current, '-Fyq1bupIBAfjxLqM');
-    // emailjs.sendForm(serviceID, templateID, templateParams, -Fyq1bupIBAfjxLqM);
+    
     e.target.reset();
   }
 

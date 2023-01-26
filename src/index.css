@@ -11,9 +11,9 @@ a:link {
 /* css variables */
 :root {
     --color-bg: white;
-    --color-bg-variant: rgb(11, 95, 116);
+    --color-bg-variant: #4589a8;
     --color-primary: black;
-    --color-primary-variant: rgb(38, 150, 179);
+    --color-primary-variant: rgb(11, 95, 116);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -57,6 +57,11 @@ section {
     transition: var(--transition);
 }
 
+.primary_button:active {
+    background: var(--color-bg-variant);
+    transition: var(--transition);
+}
+
 .coming_soon {
     color: grey;
 }
@@ -80,14 +85,13 @@ section {
     justify-content: center;
 
     /* button */
-    outline: blue;
     border: none;
     cursor: pointer;
-
 }
 
 .floating-btn:active {
-    background: #007D63;
+    background: #55a8cf;
+    
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

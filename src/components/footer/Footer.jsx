@@ -11,12 +11,12 @@ import Col from 'react-bootstrap/Col'
 
 const Footer = () => {
   return (
-    <footer className="
+    <footer className="bg-slate-50
     text-1xl text-black text-center
     fixed
     inset-x-0
     bottom-0
-    p-1">
+    pt-1">
        <small>© 2023 April Realty. All Rights Reserved.</small>
     </footer>
   //   <footer>
