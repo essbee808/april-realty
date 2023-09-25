@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,10 +11,10 @@ a:link {
 /* css variables */
 :root {
     --color-bg: white;
-    --color-bg-light: rgba(255, 255, 255, 0.6); 
-    --color-bg-variant: #4589a8;
+    --color-bg-light: white; 
+    --color-bg-variant: rgb(20, 111, 141);
     --color-primary: black;
-    --color-primary-variant: rgb(11, 95, 116);
+    --color-primary-variant: rgb(20, 111, 141);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -26,23 +26,23 @@ a:link {
 }
 
 body {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Lato', serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .main {
     flex-grow: 1;
 }
 
-section {
+/* section {
     padding-top: 5px;
     margin-top: 20px;
-}
+} */
 
 .container {
     width: var(--container-width-lg);
@@ -118,5 +118,23 @@ section {
     section {
         margin-top: 3rem;
     }
+    
+}
+
+/* test */
+.row-test {
+    /* background-color: rgb(20, 111, 141); */
+    background-image: linear-gradient(rgb(30, 145, 183), rgb(6, 48, 62));
+    padding: 2px;
+    margin-bottom: 8px;
+}
+
+h2, h3, h6, p {
+    color: white;
+}
+
+#review-carousel {
+    background: yellow;
+    margin: 3rem;
     
 }
