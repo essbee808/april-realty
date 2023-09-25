@@ -12,19 +12,17 @@ const Reviews = () => {
       <Carousel>
         <Carousel.Item>
           <Image src={Review1} text="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
+          {/* <Carousel.Caption>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <Image src={Review3} text="Second slide" />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
+          {/* <Carousel.Caption>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
     </Carousel>
 

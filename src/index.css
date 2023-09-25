@@ -121,20 +121,18 @@ body {
     
 }
 
-/* test */
 .row-test {
-    /* background-color: rgb(20, 111, 141); */
-    background-image: linear-gradient(rgb(30, 145, 183), rgb(6, 48, 62));
+    background-color: #4589a8;
+    /* background-image: linear-gradient(rgb(30, 145, 183), rgb(6, 48, 62)); */
     padding: 2px;
     margin-bottom: 8px;
 }
 
-h2, h3, h6, p {
+h2, h6, p {
     color: white;
 }
 
 #review-carousel {
-    background: yellow;
-    margin: 3rem;
-    
+  margin: 2.5rem;
+  padding: 1rem;
 }
