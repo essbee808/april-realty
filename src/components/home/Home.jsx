@@ -6,18 +6,17 @@ import React from 'react'
 // import Profile from '../../assets/profile.jpg'
 // import Image from 'react-bootstrap/Image'
 
-import About from '../about/About'
+import Welcome from '../welcome/Welcome'
 import Contact from '../contact/Contact'
-import Gallery from '../gallery/Gallery'
 import Reviews from '../reviews/Reviews'
 
 const Home = () => {
   return (
       <div>
-        <About />
+        <Welcome />
         {/* <Gallery /> */}
         <Reviews />
-        <Contact />
+
       </div>
       
   )
