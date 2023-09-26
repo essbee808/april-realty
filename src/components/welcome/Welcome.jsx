@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image'
 const Welcome = () => {
   return (
     <Container fluid>
-        <h1 className="heading">Experience A <i>Grate</i> Transaction!</h1>
+        <h2 className="tagline text-center"><i>Experience A Grate Transaction!</i></h2>
 
           <Row className="row-test">
               <Col sm={8} className="info">
@@ -26,7 +26,7 @@ const Welcome = () => {
                 </div>
               </Col>
               <Col sm={4}>
-                <Image src={Profile} alt="Profile photo" roundedCircle className="p-3"/>
+                <Image src={Profile} alt="Profile photo" roundedCircle className="p-4"/>
                 <h3 className="fs-3 text-center">April Macaraeg, Esq.</h3>
                 <h6 className="fs-5 text-center">Grate Real Estate</h6>
                   <p className="text-center">Broker Associate/Realtor®</p>

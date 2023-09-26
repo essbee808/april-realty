@@ -26,7 +26,7 @@ a:link {
 }
 
 body {
-    font-family: 'Lato', serif;
+    font-family: 'Lato', sans-serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -61,10 +61,6 @@ body {
 .primary_button:active {
     background: var(--color-bg-variant);
     transition: var(--transition);
-}
-
-.coming_soon {
-    color: #595959;
 }
 
 .floating-btn, .floating-btn:hover {
@@ -122,13 +118,20 @@ body {
 }
 
 .row-test {
-    background-color: #4589a8;
+    background-color: #0e2c46;
     /* background-image: linear-gradient(rgb(30, 145, 183), rgb(6, 48, 62)); */
     padding: 2px;
     margin-bottom: 8px;
 }
 
-h2, h6, p {
+.tagline {
+    font-size: 26px;
+    color: #4589a8;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+h3, h6, p {
     color: white;
 }
 
