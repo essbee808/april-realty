@@ -12,6 +12,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import './contact.css';
+
 
 
 const Contact = () => {
@@ -30,7 +32,12 @@ const Contact = () => {
           <Row>
             <Col>
               <h1 className="main-heading text-center">Contact</h1>
-              
+              <section className="contact-info">
+                <h4 className="fs-4">April Macaraeg, Esq.</h4>
+                  <h6 className="fs-6">Grate Real Estate</h6>
+                    <p>Broker Associate/Realtor®</p>
+                    <p>DRE# 02094285</p>
+              </section>
               <p className="">Whether you're selling, buying, or both, you can count on us as the local expers in the market
                 and the real estate team that always puts clients first.
               </p>
