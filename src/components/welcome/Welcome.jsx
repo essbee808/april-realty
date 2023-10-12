@@ -10,7 +10,6 @@ const Welcome = () => {
   return (
     <Container fluid>
         <h2 className="tagline text-center"><i>Experience A Grate Transaction!</i></h2>
-
           <Row className="row-test">
               <Col sm={8} className="info">
                 

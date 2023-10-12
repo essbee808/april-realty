@@ -15,7 +15,6 @@ import Col from 'react-bootstrap/Col'
 import './contact.css';
 
 
-
 const Contact = () => {
   const form = useRef();
 

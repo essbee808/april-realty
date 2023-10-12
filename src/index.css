@@ -95,6 +95,7 @@ section {
     margin-top: 2rem;
 }
 
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .container {
@@ -117,6 +118,11 @@ section {
     
     section {
         margin-top: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        line-height: 14px;
     }
     
 }
@@ -150,12 +156,6 @@ p {
 
 .bio {
     color: white;
-}
-
-#review-carousel {
-  margin: 5rem;
-  padding: 1rem;
-  
 }
 
 h2.slide-text {

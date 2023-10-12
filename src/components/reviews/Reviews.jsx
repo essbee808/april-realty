@@ -2,16 +2,31 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 
-import Review1 from '../../assets/review-1.jpeg'
-import Review2 from '../../assets/review-2.jpeg'
-import Review3 from '../../assets/review-3.jpeg'
+// import Review1 from '../../assets/review-1.jpeg'
+// import Review2 from '../../assets/review-2.jpeg'
+// import Review3 from '../../assets/review-3.jpeg'
+import './reviews.css'
+import BG from '../../assets/black-bg.jpeg'
 
 const Reviews = () => {
   return (
-    <section id="review-carousel">
+    <div id="review-carousel">
       <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
         <Carousel.Item>
+         <Image src={BG} text="First Slide"></Image>
+         <Carousel.Caption>
+            {/* <h2 className="slide-text">First Slide</h2> */}
+            <p>April is the gold standard in Real Estate. We came to April about 2 months into the buying process. 
+              The minute we started looking for a house with April, everything fell into place. What sets April 
+              apart from ordinary realtors is April's impeccable business acumen and her effortless ability to cultivate 
+              relationships with agents, sellers, neighbors, mortgage lenders, and people alike. On top of that, 
+              she's also an attorney - her legal skills were instrumental when a seller refused to sign a cancelation! 
+              We highly highly recommend April.</p>
+            <p>- N.L.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        {/* <Carousel.Item>
           <Image src={Review1} text="First Slide"/>
            <Carousel.Caption>
             <h2 className="slide-text">First Slide</h2>
@@ -34,10 +49,9 @@ const Reviews = () => {
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
     </Carousel>
-
-  </section>
+  </div>
   )
 }
 

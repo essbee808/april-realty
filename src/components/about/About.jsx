@@ -11,7 +11,7 @@ const About = () => {
   return (
 
     <Container fluid>
-        <h1 className="main-heading">About</h1>
+        <h1 className="main-heading text-center">About</h1>
           <Row className="row-test">
               <Col sm={8} className="info">
                 
