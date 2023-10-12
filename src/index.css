@@ -131,11 +131,29 @@ body {
     margin: 0.5rem;
 }
 
-h3, h6, p {
+.main-heading {
+    color: #0e2c46;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+/* h6, p {
+    color: white;
+} */
+p {
+    margin: 15px 0px;
+}
+
+.bio {
     color: white;
 }
 
 #review-carousel {
-  margin: 2.5rem;
+  margin: 5rem;
   padding: 1rem;
+  
+}
+
+h2.slide-text {
+    color: red;
 }

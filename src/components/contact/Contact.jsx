@@ -26,10 +26,17 @@ const Contact = () => {
   }
 
   return (
-      <Container >
+      <Container>
           <Row>
             <Col>
-              <h3 className="fs-2 fw-bold"><center>Get in Touch</center></h3>
+              <h1 className="main-heading text-center">Contact</h1>
+              
+              <p className="">Whether you're selling, buying, or both, you can count on us as the local expers in the market
+                and the real estate team that always puts clients first.
+              </p>
+              <p>We're ready to talk whenever you are.</p>
+              <p>Please complete the form below.</p>
+    
               <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="Form.ControlInput1">
                   <Form.Control type="text" name="first_name" placeholder="First Name" required/>

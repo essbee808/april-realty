@@ -14,23 +14,21 @@ const Welcome = () => {
           <Row className="row-test">
               <Col sm={8} className="info">
                 
-                <div className="fs-6 fw-light">
+                <div className="fs-6 fw-light bio">
                   <p className="text-center">
                     Everything I do is tailored to helping my client succeed. Being an attorney
                     helps with worst case scenario. Being a teacher helps with best case scenario.
-                    These two combined help make me a well rounded realtor for you.
-                  </p><br/>
-                  <p className="text-center">The most important thing to me is that your goals are met. That's why my motto
-                    is: Even if you don't choose me, use me.
+                    These two combined help make me a well rounded realtor for you. The most important thing to me is that your goals are met.
+                    That's why my motto is: Even if you don't choose me, use me.
                   </p>
                 </div>
               </Col>
               <Col sm={4}>
                 <Image src={Profile} alt="Profile photo" roundedCircle className="p-4"/>
-                <h3 className="fs-3 text-center">April Macaraeg, Esq.</h3>
-                <h6 className="fs-5 text-center">Grate Real Estate</h6>
-                  <p className="text-center">Broker Associate/Realtor®</p>
-                  <p className="text-center">DRE# 02094285</p>
+                <h3 className="fs-3 text-center bio">April Macaraeg, Esq.</h3>
+                <h6 className="fs-5 text-center bio">Grate Real Estate</h6>
+                  <p className="text-center bio">Broker Associate/Realtor®</p>
+                  <p className="text-center bio">DRE# 02094285</p>
               </Col>
           </Row>
           {/* <Row>

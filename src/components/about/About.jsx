@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import Profile from '../../assets/profile.jpg'
 import Image from 'react-bootstrap/Image'
-// import Contact from '../contact/Contact'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -12,12 +11,11 @@ const About = () => {
   return (
 
     <Container fluid>
-        <h1 className="heading">Experience A <i>Grate</i> Transaction!</h1>
-
+        <h1 className="main-heading">About</h1>
           <Row className="row-test">
               <Col sm={8} className="info">
                 
-                <div className="fs-6 fw-light">
+                <div className="fs-6 fw-light bio">
                   <p className="text-center">
                     I became a real estate agent because I want to help people make informed decisions regarding
                     their property--whether it's buying or selling. My purpose in life has always been to serve
@@ -28,7 +26,7 @@ const About = () => {
                   </p>
                 </div>
               </Col>
-              <Col sm={4}>
+              <Col sm={4} className="bio">
                 <Image src={Profile} alt="Profile photo" roundedCircle className="p-3"/>
                 <h3 className="fs-3 text-center">April Macaraeg, Esq.</h3>
                 <h6 className="fs-5 text-center">Grate Real Estate</h6>
@@ -36,12 +34,12 @@ const About = () => {
                   <p className="text-center">DRE# 02094285</p>
               </Col>
           </Row>
-          {/* <Row>
+          <Row>
             <div className="aspect-w-16 aspect-h-9">
                   <iframe src="https://player.vimeo.com/video/864134934?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Grate Real Estate Promo Video"></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
-          </Row> */}
+          </Row>
       </Container>
 
 
