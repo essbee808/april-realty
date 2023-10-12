@@ -34,16 +34,22 @@ const Contact = () => {
               <h1 className="main-heading text-center">Contact</h1>
               <section className="contact-info">
                 <h4 className="fs-4">April Macaraeg, Esq.</h4>
-                  <h6 className="fs-6">Grate Real Estate</h6>
-                    <p>Broker Associate/Realtor®</p>
-                    <p>DRE# 02094285</p>
+                  <h6 className="fs-6">Broker Associate/Realtor®</h6>
+            
+                    <h6>Phone: <a href="tel:4242614316">424-261-4316</a></h6>
+                    <br />
+                    <h6>324 S. Beverly Drive, Suite 490</h6>
+                    <h6>Beverly Hills, CA 90212</h6>
               </section>
-              <p className="">Whether you're selling, buying, or both, you can count on us as the local expers in the market
+              <section className="get-in-touch">
+                <h2>Get in Touch</h2>
+                <p>Whether you're selling, buying, or both, you can count on us as the local expers in the market
                 and the real estate team that always puts clients first.
-              </p>
-              <p>We're ready to talk whenever you are.</p>
-              <p>Please complete the form below.</p>
-    
+                </p>
+                <p>We're ready to talk whenever you are.</p>
+                <p>Please complete the form below.</p>
+              </section>
+             
               <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="Form.ControlInput1">
                   <Form.Control type="text" name="first_name" placeholder="First Name" required/>

@@ -2,3 +2,13 @@
     background:#eef2f4;
     padding: 10px 20px;
 }
+
+/* .get-in-touch {
+    
+} */
+
+.get-in-touch > h2 {
+    font-size: 26px;
+    color: #4589a8;
+    margin-top: 2rem;
+}
