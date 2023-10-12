@@ -1,18 +1,35 @@
+#review-carousel {
+    position: absolute;
+    height: 100%;
+    max-width: 100%;
+    left: 0;
+}
+
 .carousel-caption p {
     font-size: 20px;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
+    #review-carousel {
+        position: absolute;
+        height: 100%;
+        max-width: 100%;
+        left: 0;
+    }
 
+    .carousel-caption p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
     
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     .carousel-caption p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 0.6rem;
+        line-height: 10.5px;
     }
     
 }
