@@ -6,7 +6,7 @@
 }
 
 .carousel-caption p {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -19,8 +19,8 @@
     }
 
     .carousel-caption p {
-        font-size: 1rem;
-        line-height: 1rem;
+        font-size: 1.25rem;
+        line-height: 3.25rem;
     }
     
 }
