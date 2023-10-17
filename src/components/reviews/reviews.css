@@ -9,6 +9,11 @@
     font-size: 35px;
 }
 
+.carousel-caption h4 {
+    color: pink;
+    
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     #review-carousel {

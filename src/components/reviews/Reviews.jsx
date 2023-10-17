@@ -13,10 +13,10 @@ const Reviews = () => {
     <div id="review-carousel">
       <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
+
         <Carousel.Item>
          <Image src={BG} text="First Slide"></Image>
          <Carousel.Caption>
-            {/* <h2 className="slide-text">First Slide</h2> */}
             <p>"Having someone like her in your corner during such a life changing process is priceless." 
               </p>
             <p>- K.B.</p>

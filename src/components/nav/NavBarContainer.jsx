@@ -12,7 +12,7 @@ function NavBarContainer() {
           <Navbar.Brand href="/">A | R</Navbar.Brand >
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/reviews">Reviews</Nav.Link>
+            {/* <Nav.Link as={Link} to="/reviews">Reviews</Nav.Link> */}
             <Nav.Link as={Link} to="/contact">Contact Me</Nav.Link>
           </Nav>
       </Navbar> 
