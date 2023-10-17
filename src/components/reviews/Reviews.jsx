@@ -14,7 +14,7 @@ const Reviews = () => {
       <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
         <Carousel.Item>
-         <Image src={BG} text="Second Slide"></Image>
+         <Image src={BG} text="First Slide"></Image>
          <Carousel.Caption>
             {/* <h2 className="slide-text">First Slide</h2> */}
             <p>Having someone like her in your corner during such a life changing process is priceless. 
@@ -35,42 +35,44 @@ const Reviews = () => {
         </Carousel.Item>  
 
         <Carousel.Item>
-         <Image src={BG} text="First Slide"></Image>
+         <Image src={BG} text="Third Slide"></Image>
          <Carousel.Caption>
             {/* <h2 className="slide-text">First Slide</h2> */}
-            <p>April is the gold standard in Real Estate. We came to April about 2 months into the buying process. 
-              The minute we started looking for a house with April, everything fell into place. What sets April 
-              apart from ordinary realtors is April's impeccable business acumen and her effortless ability to cultivate 
+            <p>What sets April  apart from ordinary realtors is April's impeccable business acumen and her effortless ability to cultivate 
               relationships with agents, sellers, neighbors, mortgage lenders, and people alike.</p>
             <p>- N.L.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
-        
-        {/* <Carousel.Item>
-          <Image src={Review1} text="First Slide"/>
-           <Carousel.Caption>
-            <h2 className="slide-text">First Slide</h2>
-            <p>April is the gold standard in Real Estate. We came to April about 2 months into the buying process. 
-              The minute we started looking for a house with April, everything fell into place. What sets April 
-              apart from ordinary realtors is April's impeccable business acumen and her effortless ability to cultivate 
-              relationships with agents, sellers, neighbors, mortgage lenders, and people alike. She is a student 
-              of the industry and her willingness to advocate for her clients knows no bounds. On top of that, 
-              she's also an attorney - her legal skills were instrumental when a seller refused to sign a cancelation! 
-              Overall, April (as well as her team) instills confidence and trust, making our home buying journey stress 
-              free. We highly highly recommend April.</p>
-            <p>N.L.</p>
+        <Carousel.Item>
+         <Image src={BG} text="Fourth Slide"></Image>
+         <Carousel.Caption>
+            {/* <h2 className="slide-text">First Slide</h2> */}
+            <p>She's fast and quick to respond. Friendly, knowledgeable and professional.  Highly recommend April!</p>
+            <p>- L.M.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
-          <Image src={Review3} text="Second slide" />
-          <Carousel.Caption>
-            <h2 className="slide-text">Second Slide</h2>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+         <Image src={BG} text="Fifth Slide"></Image>
+         <Carousel.Caption>
+            {/* <h2 className="slide-text">First Slide</h2> */}
+            <p>April wasn’t only great with me, she was amazing and great to everyone we came in contact with, making the experience 
+              so pleasant and positive.</p>
+            <p>- C.P.</p>
           </Carousel.Caption>
-        </Carousel.Item> */}
+        </Carousel.Item>
+
+        <Carousel.Item>
+         <Image src={BG} text="Sixth Slide"></Image>
+         <Carousel.Caption>
+            {/* <h2 className="slide-text">First Slide</h2> */}
+            <p>April was absolutely amazing. She wasn’t just our realtor, she quickly became our friend.</p>
+            <p>- M.H.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+      
     </Carousel>
   </div>
   )
