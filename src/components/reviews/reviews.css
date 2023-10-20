@@ -1,8 +1,7 @@
-.review-carousel {
-    position: absolute;
-    height: 85%;
-    max-width: 85%;
-    margin: auto;
+.carousel {
+    width: 70vw;
+    height: 70vh;
+    margin: 5vh auto;
 }
 
 .carousel-caption p {
@@ -11,11 +10,11 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .review-carousel {
-        position: absolute;
-        height: 80%;
-        max-width: 80%;
-        left: 0;
+    .carousel {
+        width: 80%;
+        height: 100vh;
+        margin: 2vh auto;
+        margin-bottom: 20vh;
     }
 
     .carousel-caption p {
@@ -27,6 +26,13 @@
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
+    .carousel {
+        width: 90vw;
+        height: 30vh;
+        margin: 2vh auto;
+        margin-bottom: 13vh;
+    }
+    
     .carousel-caption p {
         font-size: 0.6rem;
         line-height: 11.5px;

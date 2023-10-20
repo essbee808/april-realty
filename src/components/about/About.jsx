@@ -9,7 +9,6 @@ import Col from 'react-bootstrap/Col'
 
 const About = () => {
   return (
-
     <Container fluid>
         <h1 className="main-heading text-center">About</h1>
           <Row className="row-test">

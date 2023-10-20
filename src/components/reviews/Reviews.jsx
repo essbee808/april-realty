@@ -2,16 +2,11 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 
-// import Review1 from '../../assets/review-1.jpeg'
-// import Review2 from '../../assets/review-2.jpeg'
-// import Review3 from '../../assets/review-3.jpeg'
 import './reviews.css'
 import BG from '../../assets/black-bg.jpeg'
 
 const Reviews = () => {
   return (
-    <div className="review-carousel">
-      <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
         <Carousel.Item>
          <Image src={BG} text="First Slide"></Image>
@@ -72,7 +67,7 @@ const Reviews = () => {
         </Carousel.Item>
 
     </Carousel>
-  </div>
+
   )
 }
 
