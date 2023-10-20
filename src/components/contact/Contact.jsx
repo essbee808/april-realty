@@ -36,6 +36,7 @@ const Contact = () => {
                   <h6 className="fs-6">Broker Associate/Realtor®</h6>
             
                     <h6>Phone: <a href="tel:4242614316">424-261-4316</a></h6>
+                    <h6>Email: <a href="mailto:macaraeg.april@gmail.com">macaraeg.april@gmail.com</a></h6>
                     <br />
                     <h6>324 S. Beverly Drive, Suite 490</h6>
                     <h6>Beverly Hills, CA 90212</h6>

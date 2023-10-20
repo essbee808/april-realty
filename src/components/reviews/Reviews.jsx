@@ -13,7 +13,6 @@ const Reviews = () => {
     <div id="review-carousel">
       <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
-
         <Carousel.Item>
          <Image src={BG} text="First Slide"></Image>
          <Carousel.Caption>
@@ -72,7 +71,6 @@ const Reviews = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-      
     </Carousel>
   </div>
   )
