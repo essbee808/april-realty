@@ -5,10 +5,6 @@ import {MdOutlineMail} from 'react-icons/md'
 import {BsTelephone} from 'react-icons/bs'
 // import './footer.css'
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
 const Footer = () => {
   return (
     <footer className="bg-slate-50
@@ -17,9 +13,12 @@ const Footer = () => {
     inset-x-0
     bottom-0
     pt-1">
+      <div className="footer-menu">
+        <span><a href="https://www.google.com" target="_blank">Google </a></span>
+        <span><a href="https://www.google.com" target="_blank">Google</a> </span>
+      </div>
        <small>© 2023 April Realty. All Rights Reserved.</small>
     </footer>
-
   )
 }
 

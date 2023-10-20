@@ -1,4 +1,9 @@
-
+.promo-video {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
 .info {
     padding: 1.5rem;

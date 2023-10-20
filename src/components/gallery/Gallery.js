@@ -4,10 +4,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 
-import Review1 from '../../assets/review-1.jpeg'
-import Review2 from '../../assets/review-2.jpeg'
-import Review3 from '../../assets/review-3.jpeg'
-
 const Gallery = () => {
   return (
     <Container>

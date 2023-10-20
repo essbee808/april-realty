@@ -10,7 +10,7 @@ import BG from '../../assets/black-bg.jpeg'
 
 const Reviews = () => {
   return (
-    <div id="review-carousel">
+    <div className="review-carousel">
       <h1 className="main-heading text-center">Testimonials</h1>
       <Carousel>
         <Carousel.Item>

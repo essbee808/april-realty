@@ -32,7 +32,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .main {
@@ -41,7 +41,7 @@ body {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .primary_button {
@@ -69,7 +69,7 @@ body {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
     position: fixed;
     right: 20px;
-    bottom: 50px;
+    bottom: 100px;
     transition: background 0.25s;
 
     /* centered horizontally and vertically */
@@ -85,10 +85,10 @@ body {
     background: #55a8cf;
     
 }
-
+/* 
 section {
     margin-top: 2rem;
-}
+} */
 
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -97,10 +97,10 @@ section {
         width: var(--container-width-md);
     }
 
-    section {
+    /* section {
         margin-top: 2rem;
     }
-    
+     */
 }
 
 
@@ -108,12 +108,13 @@ section {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+        
     }
 
     
-    section {
+    /* section {
         margin-top: 1rem;
-    }  
+    }   */
 }
 
 .row-test {
@@ -145,6 +146,6 @@ p {
     color: white;
 }
 
-h2.slide-text {
+/* h2.slide-text {
     color: red;
-}
+} */

@@ -1,8 +1,8 @@
-#review-carousel {
+.review-carousel {
     position: absolute;
     height: 85%;
     max-width: 85%;
-  
+    margin: auto;
 }
 
 .carousel-caption p {
@@ -11,7 +11,7 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    #review-carousel {
+    .review-carousel {
         position: absolute;
         height: 80%;
         max-width: 80%;
