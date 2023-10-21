@@ -39,6 +39,13 @@ const About = () => {
             </div>
             {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
           </Row>
+          <Row>
+            <ul>
+              <li>Item</li>
+              <li>Item</li>
+              <li>Item</li>
+            </ul>
+          </Row>
       </Container>
 
  

@@ -14,8 +14,8 @@ const Footer = () => {
     bottom-0
     pt-1">
       <div className="footer-menu">
-        <span><a href="https://www.google.com" target="_blank">Google </a></span>
-        <span><a href="https://www.google.com" target="_blank">Google</a> </span>
+        <span><a href="#" target="_blank">Instagram </a></span>
+        <span><a href="#" target="_blank">Zillow</a> </span>
       </div>
        <small>© 2023 April Realty. All Rights Reserved.</small>
     </footer>
