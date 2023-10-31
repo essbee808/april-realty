@@ -1,9 +1,10 @@
 import React from 'react'
-import {FiInstagram} from 'react-icons/fi'
+import {BsInstagram} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
+import {SiZillow} from 'react-icons/si'
 import {MdOutlineMail} from 'react-icons/md'
 import {BsTelephone} from 'react-icons/bs'
-// import './footer.css'
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -13,9 +14,18 @@ const Footer = () => {
     inset-x-0
     bottom-0
     pt-1">
-      <div className="footer-menu">
-        <span><a href="#" target="_blank">Instagram </a></span>
-        <span><a href="#" target="_blank">Zillow</a> </span>
+      <div id="footer-menu">
+        <h2>Let's Connect!</h2>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/aprilrealty/" target="_blank">
+            <BsInstagram icon={BsInstagram} size="2em"/></a>
+          </li>
+          <li>
+            <a href="https://www.zillow.com/profile/macaraeg%20april" target="_blank">
+            <SiZillow icon={SiZillow} size="2em"/></a>
+          </li>
+        </ul>
       </div>
        <small>© 2023 April Realty. All Rights Reserved.</small>
     </footer>
