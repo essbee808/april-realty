@@ -27,9 +27,9 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-       <small>© 2023 April Realty. All Rights Reserved.</small>
+       <p>© 2023 April Realty. All Rights Reserved.</p>
     </footer>
-  )
+  );
 }
 
 export default Footer
