@@ -3,12 +3,19 @@
     font-weight: bold;
 }
 
-#footer-menu ul li {
+/* #footer-menu ul li p {
     color: purple;
     display: block;
     float: left;
     justify-content: center;
-    
+    text-align: center;
+} */
+
+.social-icon {
+    color: purple;
+    display: block;
+    float: left;
+    text-align: center;
 }
 
 /* #footer-menu > a:hover {
@@ -27,4 +34,33 @@
   
 
  } 
- 
+
+ /* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    /* #footer-menu {
+        color: orange;
+        margin: 2vh auto;
+        
+    } */
+    
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    /* #footer-menu {
+        color: red;
+    
+    } */
+    /* .carousel {
+        width: 90vw;
+        height: 30vh;
+        margin: 2vh auto;
+        margin-bottom: 13vh;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.6rem;
+        line-height: 11.5px;
+    } */
+    
+}

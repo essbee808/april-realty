@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './about.css'
 import Profile from '../../assets/profile.jpg'
 import Image from 'react-bootstrap/Image'
@@ -7,13 +7,15 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+
 const About = () => {
+
   return (
     <Container fluid>
         <h1 className="main-heading text-center">About</h1>
           <Row className="row-test">
               <Col sm={8} className="info">
-                
+               
                 <div className="fs-6 fw-light bio">
                   <p className="text-center">
                     I became a real estate agent because I want to help people make informed decisions regarding
