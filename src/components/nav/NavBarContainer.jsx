@@ -9,7 +9,7 @@ function NavBarContainer() {
   return (
     <div className="container-nav">
       <Navbar> 
-          <Navbar.Brand href="/">A | R</Navbar.Brand >
+          <Navbar.Brand href="/">A|R</Navbar.Brand >
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             {/* <Nav.Link as={Link} to="/reviews">Reviews</Nav.Link> */}
